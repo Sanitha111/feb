@@ -1,0 +1,8 @@
+#simple interest
+p=int(input("enter prinicipal amount"))
+t=int(input("total number of years"))
+r=int(input(" enter rate of interest"))
+si=p*t*r/100
+print(si)
+emi=si+p/t*12
+print(emi)
